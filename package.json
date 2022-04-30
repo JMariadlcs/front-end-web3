@@ -1,0 +1,27 @@
+{
+  "name": "front-end-web3",
+  "version": "1.0.0",
+  "description": "## Dependencies and Set-Up - Install server dependencies: ```bash yarn add http-server ``` It is possible to work with normal testnets (Rinkeby, Mumbai, etc).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JMariadlcs/front-end-web3.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JMariadlcs/front-end-web3/issues"
+  },
+  "homepage": "https://github.com/JMariadlcs/front-end-web3#readme",
+  "devDependencies": {
+    "hardhat": "^2.9.3"
+  },
+  "dependencies": {
+    "browserify": "^17.0.0",
+    "ethers": "^5.6.4"
+  }
+}
