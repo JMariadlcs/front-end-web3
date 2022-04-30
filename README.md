@@ -24,7 +24,6 @@ cd hardhat-simple-storage
 
 - Make local network go alive:
 ```bash
-yarn
 yarn hardhat node
 ```
 
