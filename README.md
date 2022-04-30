@@ -1,4 +1,8 @@
-# front-end-web3
+# Front End Web3
+
+This is a Front-end web3 workshop from Chainlink Hackathon Spring 2022 which is made for connecting front-end and back-end and execute transactions (functions from imported Smart Contract).
+
+To do so, a local Blockchain is executed using [Hardhat simple storage](https://github.com/PatrickAlphaC/hardhat-simple-storage) repo, details are explained below step by step.
 
 ## Dependencies and Set-Up
 - Install server dependencies:
