@@ -1,6 +1,7 @@
 # front-end-web3
 
-- Install dependencies:
+## Dependencies and Set-Up
+- Install server dependencies:
 ```bash
 yarn add http-server
 ```
@@ -27,7 +28,18 @@ yarn hardhat node
 3. Chain ID: 31337
 4. Currency Symbol: ETH
 
+- Import local MetaMask account:
+1. Grab one of the previously generated Private Keys when 'yarn hardhat node' was runned
+2. Import Account
+3. Paste private key
+
+- Install some JavaScript packets (to work with ethers):
+```bash
+yarn add browserify
+yarn add ethers
+```
+
 ## Resources
 - [Full-stack-web3-connectors](https://github.com/PatrickAlphaC/full-stack-web3-metamask-connectors): a repo that contains different ways of using web3 connectors.
 - [Full stack web3](https://github.com/PatrickAlphaC/html-js-ethers-connect/tree/7fd43da59ff0c6ba4cf2c3dae0395bc6b8df03ad): repor that creates a full web3 page from scratch.
-- [Hardhat simple storage](https://github.com/PatrickAlphaC/hardhat-simple-storage): Patricks repo clonned to use the Smart Contracts
+- [Hardhat simple storage](https://github.com/PatrickAlphaC/hardhat-simple-storage): Patricks repo clonned to run our own local Blockchain network and interact with its Smart Contracts
