@@ -27,6 +27,8 @@ cd hardhat-simple-storage
 yarn hardhat node
 ```
 
+Remember: Reset MetaMask account each time you are working with a new project in local Blockchain.
+
 - We are getting our own JSON-RPC server at http://127.0.0.1:8545/
 
 - Go to Metamask and add 'New Network':
