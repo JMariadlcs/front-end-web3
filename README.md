@@ -33,7 +33,6 @@ yarn hardhat node
 2. Import Account
 3. Paste private key
 
-<<<<<<< HEAD
 - Hardhat init:
 ```bash
 npm init -y
@@ -58,12 +57,6 @@ artifacts
 yarn add browserify
 yarn add ethers
 yarn browserify ./index.js --standable bundle -o ./dist/bundle.js
-```
-
-- Install some JavaScript packets (to work with ethers):
-```bash
-yarn add browserify
-yarn add ethers
 ```
 
 ## Resources
