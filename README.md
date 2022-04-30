@@ -16,6 +16,10 @@ To do show:
 cd ..
 git clone https://github.com/PatrickAlphaC/hardhat-simple-storage
 cd hardhat-simple-storage
+```
+
+- Make local network go alive:
+```bash
 yarn
 yarn hardhat node
 ```
