@@ -4,8 +4,10 @@
 ```bash
 yarn add http-server
 ```
+It is possible to work with normal testnets (Rinkeby, Mumbai, etc).
+In this case are going to run our own local blockchain to do it faster. 
+To do show:
 
-We are going to run our own local blockchain. To do show
 - Install hardhat-simple-storage from Patrick:
 ```bash
 cd ..
