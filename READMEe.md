@@ -1,3 +1,4 @@
+# front-end-web3
 
 ## Dependencies and Set-Up
 - Install server dependencies:
@@ -31,6 +32,33 @@ yarn hardhat node
 1. Grab one of the previously generated Private Keys when 'yarn hardhat node' was runned
 2. Import Account
 3. Paste private key
+
+<<<<<<< HEAD
+- Hardhat init:
+```bash
+npm init -y
+npm install --save-dev hardhat
+```
+
+- Add .gitignore file containing:
+```bash
+node_modules
+.env
+coverage
+coverage.json
+typechain
+
+#Hardhat files
+cache
+artifacts
+```
+
+- Install some JavaScript packets (to work with ethers):
+```bash 
+yarn add browserify
+yarn add ethers
+yarn browserify ./index.js --standable bundle -o ./dist/bundle.js
+```
 
 - Install some JavaScript packets (to work with ethers):
 ```bash
