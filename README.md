@@ -60,7 +60,12 @@ artifacts
 ```bash 
 yarn add browserify
 yarn add ethers
-yarn browserify ./index.js --standable bundle -o ./dist/bundle.js
+yarn browserify index.js --standalone bundle -o ./dist/bundle.js
+```
+
+- Execute the following command each time you change 'index.js' to reupdate bundle.js
+```bash
+yarn browserify index.js --standalone bundle -o ./dist/bundle.js
 ```
 
 ## Resources
