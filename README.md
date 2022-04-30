@@ -71,4 +71,5 @@ yarn browserify index.js --standalone bundle -o ./dist/bundle.js
 ## Resources
 - [Full-stack-web3-connectors](https://github.com/PatrickAlphaC/full-stack-web3-metamask-connectors): a repo that contains different ways of using web3 connectors.
 - [Full stack web3](https://github.com/PatrickAlphaC/html-js-ethers-connect/tree/7fd43da59ff0c6ba4cf2c3dae0395bc6b8df03ad): repor that creates a full web3 page from scratch.
-- [Hardhat simple storage](https://github.com/PatrickAlphaC/hardhat-simple-storage): Patricks repo clonned to run our own local Blockchain network and interact with its Smart Contracts
+- [Hardhat simple storage](https://github.com/PatrickAlphaC/hardhat-simple-storage): Patricks repo clonned to run our own local Blockchain network and interact with its Smart Contracts.
+- [More complex video by Patrick](https://www.youtube.com/watch?v=pdsYCkUWrgQ): Same done here but more complex.
