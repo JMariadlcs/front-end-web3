@@ -4,6 +4,8 @@ This is a Front-end web3 workshop from Chainlink Hackathon Spring 2022 which is 
 
 To do so, a local Blockchain is executed using [Hardhat simple storage](https://github.com/PatrickAlphaC/hardhat-simple-storage) repo, details are explained below step by step.
 
+The workshop followed to complete this repo is [this one](https://www.youtube.com/watch?v=l4r0IXjAlpc).
+
 ## Dependencies and Set-Up
 - Install server dependencies:
 ```bash
